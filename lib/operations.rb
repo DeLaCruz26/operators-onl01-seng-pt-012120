@@ -7,9 +7,9 @@ answer = unsafe?(35)
     return true
 answer = unsafe?(50)
   else answer == 50
-    return false
+    return safe
   end
-end 
+end
 
 
 
