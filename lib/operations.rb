@@ -1,12 +1,9 @@
 def unsafe?(speed)
-answer = unsafe?(79)
-  if answer > 60
+  if speed > 60
     return true
-answer = unsafe?(35)
-  elsif answer < 40
+  elsif speed < 40
     return true
-answer = unsafe?(50)
-  else answer == 50
+  else speed == 50
     return safe
   end
 end
