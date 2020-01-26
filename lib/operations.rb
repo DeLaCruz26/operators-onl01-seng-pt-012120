@@ -1,4 +1,3 @@
-require 'pry'
 def unsafe?(speed)
   if "#{speed}" > 60
     return true
@@ -6,7 +5,6 @@ def unsafe?(speed)
     return true
   else "#{speed}" == 50
     return false
-    binding.pry
   end
 end
 
